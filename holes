@@ -1,6 +1,10 @@
 #! /usr/bin/env python
-# URL : 
+# URL : https://www.codechef.com/problems/HOLES
 
 t = int(raw_input().strip())
 while t > 0:
+ str1 = raw_input().strip()
+ print (str1.count("A") + 2 * str1.count("B") + str1.count("D") 
+        + str1.count("O") + str1.count("P") + str1.count("Q") 
+        + str1.count("R"))
  t -= 1

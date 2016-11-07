@@ -1,0 +1,6 @@
+#! /usr/bin/env python
+# URL : 
+
+t = int(raw_input().strip())
+while t > 0:
+ t -= 1

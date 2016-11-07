@@ -1,0 +1,11 @@
+#! /usr/bin/env python
+# URL : https://www.codechef.com/problems/NUMGAME 
+
+t = int(raw_input().strip())
+while t > 0:
+ n = int(raw_input().strip())
+ if n % 2 == 0:
+  print ("ALICE")
+ else:
+  print ("BOB")
+ t -= 1
